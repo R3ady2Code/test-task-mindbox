@@ -20,7 +20,7 @@ const App: React.FC = () => {
         setTodos(todos.filter((todo) => todo.id !== id));
     };
 
-    const handleTabChange = (event: React.SyntheticEvent, newTab: number) => {
+    const handleTabChange = (_: React.SyntheticEvent, newTab: number) => {
         setTab(newTab);
     };
 
